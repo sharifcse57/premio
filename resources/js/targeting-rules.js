@@ -69,7 +69,7 @@ new Vue({
                 });
         },
         setSnippet() {
-            this.jsSnippet = `<script src="http://premio-assesment.test/generate-script/${this.uniqueId}"></script>`;
+            this.jsSnippet = `<script src="https://dev-pharmalys.slsweb.ch/generate-script/${this.uniqueId}"></script>`;
         },
         getError(key) {
             return this.errors[key] ? this.errors[key][0] : '';
